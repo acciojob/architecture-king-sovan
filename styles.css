@@ -1,1 +1,34 @@
-/*  your css code here. If applicable */
+*{
+	background-color: #cbd6cb;
+
+body {
+	font-family: Arial, sans-serif;
+    margin: 20px;
+}
+.imageContainer {
+    margin-bottom: 20px;
+}
+.imageContainer img {
+    max-width: 60%;
+    height: auto;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+th, td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 8px;
+}
+td img {
+    width: 200px;
+    height: auto;
+}
+.column200 {
+    width: 200px;
+}
+.column600 {
+    width: 600px;
+}
